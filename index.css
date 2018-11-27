@@ -5,6 +5,7 @@
 
 #uber {
    text-align:center;
+   
 }
 
 body {
@@ -17,7 +18,14 @@ body {
 
 #uber2 {
     background-color: #ffffff;
-    border: 3px solid black;
-    opacity: 0.7;
+    border: 1px solid black;
+    opacity: 0.9;
     font-weight: bold;
+    border-radius: 25px;
+    padding: 20px;
+    font-family: 'Inconsolata', monospace;
+}
+
+#buy1, #income1, #months1, #cost1, #save1 {
+    font-size: 20px;
 }
