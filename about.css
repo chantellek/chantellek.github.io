@@ -1,14 +1,4 @@
-#welcome {
-    padding-left: 40px;
-    color: white;
-}
-
-#uber {
-   text-align:center;
-   
-}
-
-body {
+html, body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("background1.jpg");
     height: 100%;
     background-position: center;
@@ -27,14 +17,20 @@ body {
     font-size: 12px;
 }
 
-#buy1, #income1, #months1, #cost1, #save1, #submitbutton {
-    font-size: 20px;
-}
-
 #brand {
     font-size: 30px;
     font-family: 'Pacifico', cursive;
 }
 .nav-link {
     font-size: 15px;
+}
+
+#welcome {
+    font-size: 15px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#profile {
+    margin-left: 20px;
 }
