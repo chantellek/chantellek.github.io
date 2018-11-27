@@ -5,7 +5,8 @@ $(document).ready(function(){
             total += Number($(this).val());
         });
         total = Number($('#income').val()) - total;
-       total -= Number($('#cost').val())/Number ($('#months').val());
+        total -= Number($('#cost').val())/Number ($('#months').val());
         $('#save').val(total);
     });
 });
+
