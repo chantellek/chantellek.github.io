@@ -32,5 +32,13 @@ html, body {
 }
 
 #profile {
-    margin-left: 20px;
+    margin-left: 60px;
+}
+
+.pound {
+    size: 40px;
+}
+
+.glifStyle {
+    font-size: 30px;
 }
