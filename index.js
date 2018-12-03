@@ -26,7 +26,7 @@ $(document).ready(function(){
 //On click listener for #cost
 $(document).ready(function(){
     $('#submitbutton').click(function(event){
-        var cost = $('#cost').val();
+        var cost = "£" + $('#cost').val();
         $('.modal-body #cost').val(cost); 
         $('.modal-body #cost').css("width", getElementWidthFromString(cost));
 
