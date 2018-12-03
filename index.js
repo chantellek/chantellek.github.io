@@ -44,7 +44,7 @@ $(document).ready(function(){
 });
 
 function getElementWidthFromString(str){
-    return (str.length * 8) + 2;
+    return (str.length * 8) + 5;
 }
 
 function adjust_textarea(h) {
